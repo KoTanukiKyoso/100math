@@ -1,0 +1,26 @@
+{
+  "name": "100math",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.3.67",
+    "@nuxt/devtools": "^1.0.0",
+    "@types/node": "^20",
+    "cpx": "^1.5.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.69.5",
+    "vite-plugin-vuetify": "^1.0.2"
+  },
+  "dependencies": {
+    "nuxt": "^3.8.2",
+    "sweetalert2": "^11.8.0",
+    "vue-clipboard3": "^2.0.0",
+    "vuetify": "^3.4.3"
+  }
+}
