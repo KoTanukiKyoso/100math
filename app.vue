@@ -20,7 +20,7 @@
         <my-btn variant="outlined" color="white" to="/login" icon="login" shorten text="ログイン"/>
       </div>
     </v-app-bar>
-    <l-side-navigation v-model="drawer"/>
+    <l-side-navigation v-if="false" v-model="drawer"/>
     <v-main style="overflow-x: hidden;">
       <my-alert/>
       <my-overlay/>
